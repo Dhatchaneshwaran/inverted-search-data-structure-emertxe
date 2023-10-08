@@ -40,5 +40,6 @@ int file_validate(int argc, char *argv[])
 	return SUCCESS;
     }
     else
+        printf("Atleast one more argument is needed\n");
 	return FAILURE;
 }
